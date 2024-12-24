@@ -22,7 +22,7 @@
 
 layer1 {
           bindings = <
-          &trans &trans &trans &trans &trans &trans [[KC_BTN1]] [[KC_WH_U]] [[KC_BTN2]] &trans &trans [[KC_BTN2]] &none [[KC_BTN1]] &trans &trans [[KC_MS_L]] [[KC_MS_D]] [[KC_MS_U]] [[KC_MS_R]] &trans &trans &trans &trans &trans &trans [[KC_WH_L]] [[KC_WH_D]] [[KC_WH_R]] &trans &trans &trans &trans &trans
+          &trans &trans &trans &trans &trans &trans &mkp MB1 &msc SCRL_UP &mkp MB2 &trans &trans &mkp MB2 &none &mkp MB1 &trans &trans &mmv MOVE_LEFT &mmv  MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &trans &trans &trans &trans &trans &trans &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_RIGHT &trans &trans &trans &trans &trans
           >;
         };
 /*
