@@ -28,10 +28,16 @@ layer1 {
         };
 layer2 {
           bindings = <
-          &trans &trans &kp PAGE_UP &trans &trans &trans &trans &trans &trans &trans &kp LEFT &kp UP &kp DOWN &kp RIGHT &trans &trans &kp LEFT_GUI &none &mt LEFT_ALT &mt LEFT_SHIFT  &trans &kp HOME &kp PAGE_DOWN &kp END &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+          &trans &trans &kp J  &trans &trans &trans &trans &trans &trans &trans&kp J &kp J &kp J&kp J  &trans &trans &kp J  &none&kp J &kp J  &trans&kp J&kp J &kp J &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
           >;
         };
 /*
+
+layer2 {
+          bindings = <
+          &trans &trans &kp PAGE_UP &trans &trans &trans &trans &trans &trans &trans &kp LEFT &kp UP &kp DOWN &kp RIGHT &trans &trans &kp LEFT_GUI &none &mt LEFT_ALT &mt LEFT_SHIFT  &trans &kp HOME &kp PAGE_DOWN &kp END &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+          >;
+        };
 
 layer3 {
           bindings = <
