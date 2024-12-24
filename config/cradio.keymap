@@ -37,13 +37,13 @@ layer3 {
           bindings = <
           &trans &trans &trans &trans &trans &trans  &kp UNDER  &kp PIPE &kp SINGLE_QUOTE &trans  &kp CARET &kp ASTRK &kp AMPS &none &trans &kp HASH &kp TILDE2 &kp SLASH &kp DQT  &kp DOLLAR &trans &trans &trans &trans &trans &trans &kp MINUS &kp BACKSLASH &kp GRAVE &trans  &trans &trans &trans  &trans          >;
         };
-/*
 
 layer4 {
           bindings = <
-          &trans [[KC_COLN]] [[KC_LT]] [[KC_GT]] &kp SEMICOLON &trans &trans &trans &trans &trans [[KC_LCBR]] [[KC_RCBR]] [[KC_LPRN]] [[KC_RPRN]] [[KC_AT]] &trans &none &kp EQUAL [[KC_PLUS]] [[KC_PERC]] &trans [[KC_EXLM]] &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans &trans &trans &trans &trans &trans &kp C_VOLUME_DOWN &trans &trans &kp C_VOLUME_UP
+          &trans &kp COLON &kp LT &kp GT &kp SEMICOLON &trans &trans &trans &trans &trans &kp LBRC &kp RBRC &kp LPAR &kp RPAR &kp AT &trans &none &kp  EQUAL &kp PLUS &kp PERC &trans &kp EXLM &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans &trans &trans &trans &trans &trans &kp C_VOLUME_DOWN &trans &trans &kp C_VOLUME_UP
           >;
         };
+/*
 
 layer5 {
           bindings = <
@@ -59,7 +59,7 @@ layer6 {
 
 layer7 {
           bindings = <
-          &trans &trans [[KC_COLN]] &kp ESCAPE &trans &trans &trans &trans &trans &kp DELETE &trans [[KC_PERC]] &kp SLASH &kp ENTER &trans [[DF(1)]] &kp LEFT_GUI &trans &trans &trans &trans &trans &trans [[KC_EXLM]] &trans [[DF(0)]] &trans [[RALT_T(KC_COMM)]] [[RCTL_T(KC_DOT)]] [[QK_BOOT]] &trans &kp TAB &none &trans
+          &trans &trans COLN&kp ESCAPE &trans &trans &trans &trans &trans &kp DELETE &trans PERC&kp SLASH &kp ENTER &trans [[DF(1)&kp LEFT_GUI &trans &trans &trans &trans &trans &trans EXLM&trans [[DF(0)&trans [[RALT_T(KC_COMM)[[RCTL_T(KC_DOT)[[QK_BOOT&trans &kp TAB &none &trans
           >;
         };
 */
