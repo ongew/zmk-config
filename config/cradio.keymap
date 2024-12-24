@@ -55,13 +55,13 @@ layer6 {
           &kp KP_SLASH &kp N7 &kp N8 &kp N9 &kp KP_PLUS &trans &trans &trans &trans &trans &kp N0 &kp N1 &kp N2 &kp N3 &kp KP_MINUS &trans &trans &trans &none &trans &kp KP_ASTERISK &kp N4 &kp N5 &kp N6 &kp KP_EQUAL &trans &trans &trans &trans &trans &trans &trans &trans &trans
           >;
         };
-/*
+
 layer7 {
           bindings = <
-          &trans &trans COLN&kp ESCAPE &trans &trans &trans &trans &trans &kp DELETE &trans PERC&kp SLASH &kp ENTER &trans [[DF(1)&kp LEFT_GUI &trans &trans &trans &trans &trans &trans EXLM&trans [[DF(0)&trans [[RALT_T(KC_COMM)[[RCTL_T(KC_DOT)[[QK_BOOT&trans &kp TAB &none &trans
+          &trans &trans  &kp COLON &kp ESCAPE &trans &trans &trans &trans &trans &kp DELETE &trans  &kp PERCENT &kp SLASH &kp ENTER &trans [[DF(1) &kp LEFT_GUI &trans &trans &trans &trans &trans &trans &kp EXCL &trans &trans &trans  &kp LC(RIGHT_ALT) &kp LC(RIGHT_CONTROL) &bootloader &trans &kp TAB &none &trans
           >;
         };
-*/
+
 
     };
   };
