@@ -14,11 +14,11 @@
     keymap {
       compatible = "zmk,keymap";
 
-  layer0 {
+    layer0 {
           bindings = <
-          &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &mt LEFT_SHIFT A &lt 5 S &lt 1 D &lt 3 F &kp G &kp H &lt 4 J &lt 2 K &lt 6 L &mt LEFT_SHIFT SEMICOLON &kp Z &mt LEFT_CONTROL X &mt LEFT_ALT C &kp V &kp B &kp N &kp M &mt LEFT_ALT COMMA &mt LEFT_CONTROL DOT &kp SLASH &kp KP_N0 &kp BACKSPACE &lt 7 SPACE &kp KP_N1
+          &kp J &kp C &kp Y &kp F &kp K &kp Z &kp L &kp COMMA &kp U &kp Q &mt LEFT_SHIFT R &lt 5 S &lt 1 T &lt 3 H &kp D &kp B &lt 4 N &lt 2 O &lt 6 I &mt LEFT_SHIFT M &none &mt LEFT_CONTROL V &mt LEFT_ALT G &kp P &none &kp X &kp W &mt LEFT_ALT DOT &mt LEFT_CONTROL SEMICOLON &none &kp E &kp BACKSPACE &lt 7 SPACE &kp A
           >;
-        };
+        };l
 /*
 layer1 {
           bindings = <
