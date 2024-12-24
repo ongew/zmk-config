@@ -26,12 +26,12 @@ layer1 {
           &trans &trans &trans &trans &trans &trans &mkp MB1 &msc SCRL_UP &mkp MB2 &trans &trans &mkp MB2 &none &mkp MB1 &trans &trans &mmv MOVE_LEFT &mmv  MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &trans &trans &trans &trans &trans &trans &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_RIGHT &trans &trans &trans &trans &trans
           >;
         };
-/*
 layer2 {
           bindings = <
-          &trans &trans &kp PAGE_UP &trans &trans &trans &trans &trans &trans &trans &kp LEFT &kp UP &kp DOWN &kp RIGHT &trans &trans &kp LEFT_GUI &none &kp LC(LEFT_ALT) [[LCA(KC_LSFT)]] &trans &kp HOME &kp PAGE_DOWN &kp END &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+          &trans &trans &kp PAGE_UP &trans &trans &trans &trans &trans &trans &trans &kp LEFT &kp UP &kp DOWN &kp RIGHT &trans &trans &kp LEFT_GUI &none &kp L&mt LEFT_ALT &mt LEFT_CONTROL  &trans &kp HOME &kp PAGE_DOWN &kp END &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
           >;
         };
+/*
 
 layer3 {
           bindings = <
