@@ -58,7 +58,7 @@ layer6 {
 
 layer7 {
           bindings = <
-          &trans &trans  &kp COLON &kp ESCAPE &trans &trans &trans &trans &trans &kp DELETE &trans  &kp PERCENT &kp SLASH &kp ENTER &trans [[DF(1) &kp LEFT_GUI &trans &trans &trans &trans &trans &trans &kp EXCL &trans &trans &trans  &kp LC(RIGHT_ALT) &kp LC(RIGHT_CONTROL) &bootloader &trans &kp TAB &none &trans
+          &trans &trans  &kp COLON &kp ESCAPE &trans &trans &trans &trans &trans &kp DELETE &trans  &kp PERCENT &kp SLASH &kp ENTER &trans &trans &kp LEFT_GUI &trans &trans &trans &trans &trans &trans &kp EXCL &trans &trans &trans  &kp LC(RIGHT_ALT) &kp LC(RIGHT_CONTROL) &bootloader &trans &kp TAB &none &trans
           >;
         };
 
