@@ -49,13 +49,13 @@ layer5 {
           &trans &trans &trans &trans &trans &trans &kp F7 &kp F8 &kp F9 &kp F10 &trans &none &kp LC(LEFT_ALT) &trans &trans &trans &kp F4 &kp F5 &kp F6 &kp F11 &trans &trans &trans &trans &trans &trans &kp F1 &kp F2 &kp F3 &kp F12 &trans &trans &trans &trans
           >;
         };
-/*
+
 layer6 {
           bindings = <
           &kp KP_SLASH &kp N7 &kp N8 &kp N9 &kp KP_PLUS &trans &trans &trans &trans &trans &kp N0 &kp N1 &kp N2 &kp N3 &kp KP_MINUS &trans &trans &trans &none &trans &kp KP_ASTERISK &kp N4 &kp N5 &kp N6 &kp KP_EQUAL &trans &trans &trans &trans &trans &trans &trans &trans &trans
           >;
         };
-
+/*
 layer7 {
           bindings = <
           &trans &trans COLN&kp ESCAPE &trans &trans &trans &trans &trans &kp DELETE &trans PERC&kp SLASH &kp ENTER &trans [[DF(1)&kp LEFT_GUI &trans &trans &trans &trans &trans &trans EXLM&trans [[DF(0)&trans [[RALT_T(KC_COMM)[[RCTL_T(KC_DOT)[[QK_BOOT&trans &kp TAB &none &trans
