@@ -19,13 +19,13 @@
           &kp J &kp C &kp Y &kp F &kp K &kp Z &kp L &kp COMMA &kp U &kp Q &mt LEFT_SHIFT R &lt 5 S &lt 1 T &lt 3 H &kp D &kp B &lt 4 N &lt 2 O &lt 6 I &mt LEFT_SHIFT M &none &mt LEFT_CONTROL V &mt LEFT_ALT G &kp P &none &kp X &kp W &mt LEFT_ALT DOT &mt LEFT_CONTROL SEMICOLON &none &kp E &kp BACKSPACE &lt 7 SPACE &kp A
           >;
         };
-/*
+
 layer1 {
           bindings = <
           &trans &trans &trans &trans &trans &trans [[KC_BTN1]] [[KC_WH_U]] [[KC_BTN2]] &trans &trans [[KC_BTN2]] &none [[KC_BTN1]] &trans &trans [[KC_MS_L]] [[KC_MS_D]] [[KC_MS_U]] [[KC_MS_R]] &trans &trans &trans &trans &trans &trans [[KC_WH_L]] [[KC_WH_D]] [[KC_WH_R]] &trans &trans &trans &trans &trans
           >;
         };
-
+/*
 layer2 {
           bindings = <
           &trans &trans &kp PAGE_UP &trans &trans &trans &trans &trans &trans &trans &kp LEFT &kp UP &kp DOWN &kp RIGHT &trans &trans &kp LEFT_GUI &none &kp LC(LEFT_ALT) [[LCA(KC_LSFT)]] &trans &kp HOME &kp PAGE_DOWN &kp END &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
