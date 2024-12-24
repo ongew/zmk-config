@@ -32,19 +32,12 @@ layer2 {
           >; 
         };
 
-/*
-
-layer2 {
-          bindings = <
-          &trans &trans &kp PAGE_UP &trans &trans &trans &trans &trans &trans &trans &kp LEFT &kp UP &kp DOWN &kp RIGHT &trans &trans &kp LEFT_GUI &none &mt LEFT_ALT &mt LEFT_SHIFT  &trans &kp HOME &kp PAGE_DOWN &kp END &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-          >;
-        };
 
 layer3 {
           bindings = <
-          &trans &trans &trans &trans &trans &trans [[KC_UNDS]] [[KC_PIPE]] &kp SINGLE_QUOTE &trans [[KC_CIRC]] [[KC_ASTR]] [[KC_AMPR]] &none &trans [[KC_HASH]] [[KC_TILD]] &kp SLASH [[KC_DQUO]] [[KC_DLR]] &trans &trans &trans &trans &trans &trans &kp MINUS &kp BACKSLASH &kp GRAVE &trans [[RGB_RMOD]] &trans &trans [[RGB_MOD]]
-          >;
+          &trans &trans &trans &trans &trans &trans  &kp UNDER  &kp PIPE &kp SINGLE_QUOTE &trans  &kp CARET &kp ASTRK &kp AMPS &none &trans &kp HASH &kp TILDE2 &kp SLASH &kp DQT  &kp DOLLAR &trans &trans &trans &trans &trans &trans &kp MINUS &kp BACKSLASH &kp GRAVE &trans  &trans &trans &trans  &trans          >;
         };
+/*
 
 layer4 {
           bindings = <
