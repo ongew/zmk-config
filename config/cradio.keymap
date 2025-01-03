@@ -8,10 +8,13 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     keymap {
@@ -19,10 +22,10 @@
 
         Home {
             bindings = <
-&kp J             &kp C               &kp Y           &kp F    &kp K            &kp Z        &kp L    &kp COMMA         &kp U                       &kp Q
-&mt LEFT_SHIFT R  &lt 5 S             &lt 1 T         &lt 3 H  &kp D            &kp B        &lt 4 N  &lt 2 O           &lt 6 I                     &mt LEFT_SHIFT M
-&trans            &mt LEFT_CONTROL V  &mt LEFT_ALT G  &kp P    &none            &kp X        &kp W    &mt LEFT_ALT DOT  &mt LEFT_CONTROL SEMICOLON  &lt 8 M
-                                                      &lt 9 E  &kp BACKSPACE    &lt 7 SPACE  &lt 9 A
+&kp J             &kp C               &kp Y           &kp F    &kp K              &kp Z        &kp L    &kp COMMA         &kp U                       &kp Q
+&mt LEFT_SHIFT R  &lt 5 S             &lt 1 T         &lt 3 H  &kp D              &kp B        &lt 4 N  &lt 2 O           &lt 6 I                     &mt LEFT_SHIFT M
+&trans            &mt LEFT_CONTROL V  &mt LEFT_ALT G  &kp P    &none              &kp X        &kp W    &mt LEFT_ALT DOT  &mt LEFT_CONTROL SEMICOLON  &lt 8 M
+                                                      &lt 9 E  &lt 7 BACKSPACE    &lt 7 SPACE  &lt 9 A
             >;
         };
 
@@ -82,10 +85,10 @@
 
         Always {
             bindings = <
-&trans  &trans       &kp COLON  &kp ESCAPE  &trans     &trans  &trans        &trans             &trans                 &kp DELETE
-&trans  &kp PERCENT  &kp SLASH  &kp ENTER   &trans     &trans  &kp LEFT_GUI  &trans             &trans                 &trans
-&trans  &trans       &trans     &kp EXCL    &trans     &trans  &trans        &kp LC(RIGHT_ALT)  &kp LC(RIGHT_CONTROL)  &bootloader
-                                &trans      &kp TAB    &none   &trans
+&trans       &trans       &kp COLON  &kp ESCAPE  &trans     &trans  &trans        &trans             &trans                 &kp DELETE
+&sys_reset   &kp PERCENT  &kp SLASH  &kp ENTER   &trans     &trans  &kp LEFT_GUI  &trans             &trans                 &sys_reset
+&bootloader  &trans       &trans     &kp EXCL    &trans     &trans  &trans        &kp LC(RIGHT_ALT)  &kp LC(RIGHT_CONTROL)  &bootloader
+                                     &trans      &kp TAB    &none   &trans
             >;
         };
 
