@@ -7,10 +7,13 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     keymap {
@@ -20,8 +23,8 @@
             bindings = <
 &kp J             &kp C               &kp Y           &kp F    &kp K            &kp Z        &kp L    &kp COMMA         &kp U                       &kp Q
 &mt LEFT_SHIFT R  &lt 5 S             &lt 1 T         &lt 3 H  &kp D            &kp B        &lt 4 N  &lt 2 O           &lt 6 I                     &mt LEFT_SHIFT M
-&trans            &mt LEFT_CONTROL V  &mt LEFT_ALT G  &kp P    &none            &kp X        &kp W    &mt LEFT_ALT DOT  &mt LEFT_CONTROL SEMICOLON  &trans
-                                                      &kp E    &kp BACKSPACE    &lt 7 SPACE  &kp A
+&trans            &mt LEFT_CONTROL V  &mt LEFT_ALT G  &kp P    &none            &kp X        &kp W    &mt LEFT_ALT DOT  &mt LEFT_CONTROL SEMICOLON  &lt 8 M
+                                                      &lt 9 E  &kp BACKSPACE    &lt 7 SPACE  &lt 9 A
             >;
         };
 
